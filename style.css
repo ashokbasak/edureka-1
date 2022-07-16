@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.headerImg {
+    position: absolute;
+    height: 700px;
+    width: 100%;   
+    z-index: -1; 
+    top: -55vh; 
+  }
+
+  .logo {
+    background: white;
+    color: #EB2929;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 5.5rem;
+    height: 147px;
+    width: 147px;
+    padding-top: 15px;
+    border: 1px solid #707070;
+    border-radius: 100%;
+    justify-content: center;
+  }
+
+  .nav-item a{
+    margin-right: 15px;
+    color: white;
+  }
+
+  .active {
+    border: 1px solid white;
+  }
+
+  .search-area {
+    display: flex;
+  }
+  #search {
+    display: flex;
+    margin-left: 320px;
+    margin-top: 20px;
+    width: 245px;
+    height: 40px;
+  }
+
+  .input-field {
+    display: flex;
+  }
+  .input-field input {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 350px;
+    height: 40px;
+  }
+
+  .searchTitle {
+    margin-top:60px;
+    margin-left: 60px;
+   
+    width: 239px;
+    height: 43px;
+    text-align: left;
+    font: normal normal bold 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+   }
+   
+   .searchPara {
+     margin-left: 60px;
+     color: #8C96AB;
+     font-size: 18px;
+     margin-bottom: 20px;
+   }
+
+   .item {
+    display: flex;
+    margin-right: 52px;
+  }
+  .item1, .item2, .item3 {
+    display: flex;
+  
+    width: 360px;
+    height: 160px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1; 
+  }
+  
+  .dish-img {
+    left: 113px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+  }
+  
+  .item-left {
+    display: flex;
+  }
+  
+  .item-right {
+     padding-left: 20px;
+     padding-top: 25px;
+  }
+  
+   h4 {
+    width: 88px;
+    height: 25px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+  }
+  
+  p {
+    width: 138px;
+    height: 62px;
+    text-align: left;
+    font: 14px;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+  }
+  
+  .item-left2 {
+    margin-left: 113px;
+  }
+  
+  .item-left3 {
+    margin-left: 50px;
+  }
+   
+  
